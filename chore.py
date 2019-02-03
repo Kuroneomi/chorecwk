@@ -5,10 +5,10 @@
 # This program prompts the user for two numbers and checks whether they match two
 # randomly generated numbers.
 #
-# Author: Dan Thompson
+# Author: Dan Thompson & Neomi
 #
 # Date: Feb 2019
-#   
+#
 def main() :
 #define variables
   about = "a"
@@ -17,14 +17,14 @@ def main() :
   log_chores_done = "l"
   show_leaderboard = "s"
   quit = "q"
-#show user main menu 
+#show user main menu
 #input for chore list
-  print("""Welcome to Chore Chart 
-    \n\tAbout \t\t\t(A) 
-    \tCreate Household \t(C) 
-    \tView Household \t\t(V) 
-    \tLog Chores Done \t(L) 
-    \tShow Leaderboard \t(S) 
+  print("""Welcome to Chore Chart
+    \n\tAbout \t\t\t(A)
+    \tCreate Household \t(C)
+    \tView Household \t\t(V)
+    \tLog Chores Done \t(L)
+    \tShow Leaderboard \t(S)
     \tQuit \t\t\t(Q)""")
   while True:
     chore_list = str(input("\n\tPlease choose an option and press <Enter>:"))
@@ -56,9 +56,7 @@ def main() :
     else:
       print("Incorrect Input.")
       continue
-      
-      
- 
+
 # Start the program
 if __name__ == "__main__":
     main()
